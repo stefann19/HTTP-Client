@@ -1,0 +1,24 @@
+﻿  Building Custom Rule D:/Projects/Cmake Http Client/CMakeLists.txt
+  CMake does not need to re-run because D:/Projects/Cmake Http Client/build/CMakeFiles/generate.stamp is up-to-date.
+  Main.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+D:\Projects\Cmake Http Client\src\Main.cpp(75): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\Cmake Http Client\src\Main.cpp(82): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\Cmake Http Client\src\Main.cpp(127): warning C4018: '<': signed/unsigned mismatch
+  HTTPEquation.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+D:\Projects\Cmake Http Client\src\HTTPEquation.cpp(26): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\Cmake Http Client\src\HTTPEquation.cpp(59): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\Cmake Http Client\src\HTTPEquation.cpp(80): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\Cmake Http Client\src\HTTPEquation.cpp(265): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  json11.cpp
+  Generating Code...
+d:\projects\cmake http client\src\main.cpp(66): warning C4715: 'Process::xOpY': not all control paths return a value
+  testFormaPol.vcxproj -> D:\Projects\Cmake Http Client\build\Debug\testFormaPol.exe
